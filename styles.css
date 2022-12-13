@@ -1,0 +1,79 @@
+/* navbar */
+.navbar-logo {
+
+    height: 10px;
+
+}
+
+/* carousel */
+.carousel-img {
+
+    max-height: 600px;
+    object-fit: cover;
+
+}
+
+/* header */
+.header-block {
+
+    display: flex;
+    background-color: grey;
+    color: white;
+    height: 20rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subtitle-italics {
+
+    font-size: 1rem;
+    font-style: italic;
+
+}
+
+.subtitle-colour {
+
+    font-size: 1rem;
+    color: red;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+/* body */
+.body-block {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.text-declaration {
+
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+/* buttons */
+.btn-one {
+
+    padding: 0px 10px 0px 10px;
+    transition-duration: 0.3s;
+    transition-property: filter;
+    background-color: grey;
+    color: white;
+    
+}
+
+.btn-one:hover {
+
+    filter:brightness(0.8);
+
+}
